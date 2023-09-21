@@ -1,3 +1,4 @@
+// To calculate factorial of any number
 class Practice{
     static int factorial(int num){
         if (num == 1) {
