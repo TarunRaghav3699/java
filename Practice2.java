@@ -1,3 +1,4 @@
+// To find the palindrom of a number
 class Something {
     public void palindrom(int num) {
         int num2 = num;
