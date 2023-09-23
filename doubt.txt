@@ -1,0 +1,1 @@
+In this doubt portion i will clear your any doubt about how the Lcm and Gcd code is written and for that i will demonstrate an example as well
