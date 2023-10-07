@@ -13,4 +13,4 @@ Referals for above:-
 12. [Palindrom with Recursive](PalindromRecursive.java)
 13. [Star Triangle Pattern](Pattern.java)
 14. [Prime Number](PrimeNumber.java)
-15. [For any doubt in GCD and LCM](doubt.txt)
+15. [For any doubt in GCD and LCM](doubt.md)
