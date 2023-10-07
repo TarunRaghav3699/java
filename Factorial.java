@@ -1,5 +1,5 @@
 // To calculate factorial of any number
-class Practice{
+class Factorial{
     static int factorial(int num){
         if (num == 1) {
             return 1;

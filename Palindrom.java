@@ -11,14 +11,14 @@ class Something {
         }
 
         if (num2 == reversed) {
-            System.out.println("It's a palindrome");
+            System.out.println(num2 + " is a palindrome");
         } else {
-            System.out.println("It's not a palindrome");
+            System.out.println(num2 + " is not a palindrome");
         }
     }
 }
 
-public class Practice2 {
+public class Palindrom {
     public static void main(String[] args) {
         Something myObj = new Something();
         myObj.palindrom(12321);
