@@ -15,9 +15,8 @@ public class ArmstrongNumber {
             originalNum /= 10;
             n++;
         }
-
         originalNum = num;
-
+    // main code start from here
         while (originalNum != 0) {
             remainder = originalNum % 10;
             result += Math.pow(remainder, n);
