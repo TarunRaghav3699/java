@@ -1,3 +1,6 @@
+// Not for our Exam
+
+
 // In this i am Calculating the LCM(least common multiple)
 // if anyone have any doubt the refer to the txt file doubt
 
