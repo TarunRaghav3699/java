@@ -1,3 +1,6 @@
+// Not for our Exam
+
+
 // read this code from a book Discrete Mathematics by CL Lie and DP Mohapatra
 // Code to find GCD (Greatest Common Divisor) in other words GCD is equal to HCF(Highest common factor)
 // if anyone have any doubt the refer to the txt file doubt
