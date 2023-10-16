@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ArmstrongNumber {
+public class Armstrong{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
@@ -28,5 +28,6 @@ public class ArmstrongNumber {
             System.out.println(num + " is an Armstrong number.");
         else
             System.out.println(num + " is not an Armstrong number.");
+        sc.close();
     }
 }

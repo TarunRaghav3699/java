@@ -33,5 +33,6 @@ class Lcm {
             a = myObj.next().charAt(0);
 
         }while(a == 'y');
+        myObj.close();
     }
 }
