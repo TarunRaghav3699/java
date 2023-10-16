@@ -16,3 +16,4 @@ Referals for above:-
 15. [Prime Number](PrimeNumber.java)
 16. [Example 1 of Method Overriding](Main.java)
 16. [Example 2 of Method Overriding](Shape.java)
+16. [Example 1 of Constructor Overriding](Practice3.java)
