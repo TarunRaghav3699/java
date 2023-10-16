@@ -1,41 +1,40 @@
-// Making constructor overloading
-class Student {
-    int length;
-    int breadth;
-    int height;
+class Shape {
+    private double length;
+    private double breadth;
+    private double base;
+    private double height;
 
-    Student(int h) {
-        height = h;
-        System.out.println("Height is " + h);
+    // Constructor overloading
+    public Shape(double l, double b) {
+        this.length = l;
+        this.breadth = b;
     }
 
-    Student(int l, int b) {
-        length = l;
-        breadth = b;
+    public Shape(double b, double h) {
+        this.base = b;
+        this.height = h;
     }
 
-    public int rectangle() {
+    // Calculate area of a rectangle
+    public double area() {
         return length * breadth;
     }
-}
 
-class ExtendedStudent extends Student {
-    ExtendedStudent(int h) {
-        super(h); // Call the constructor of the superclass
+    // Calculate area of a triangle
+    public double area(String shape) {
+        if (shape.equalsIgnoreCase("triangle")) {
+            return 0.5 * base * height;
+        }
+        return -1; // Indicate an unsupported shape
     }
 }
 
 public class Practice3 {
     public static void main(String[] args) {
-        ExtendedStudent myObj = new ExtendedStudent(15);
+        Shape rectangle = new Shape(5.0, 4.0);
+        System.out.println("Area of rectangle: " + rectangle.area());
 
-        if (myObj.length != myObj.breadth) {
-            System.out.println("This is a rectangle");
-            System.out.println(myObj.rectangle());
-        } else {
-            System.out.println("This is a square");
-            System.out.println(myObj.rectangle());
-        }
+        Shape triangle = new Shape(3.0, 6.0);
+        System.out.println("Area of triangle: " + triangle.area("triangle"));
     }
 }
-
