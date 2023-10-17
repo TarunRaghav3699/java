@@ -3,7 +3,7 @@ public class FibonacciRecursive {
         int n = 5; // Change this to the desired number of Fibonacci numbers
         System.out.println("Fibonacci Series:");
         for (int i = 0; i < n; i++) {
-            System.out.print(fibonacci(i) + " ");
+            System.out.print(fibonacci(i) + "\n");
         }
     }
 
