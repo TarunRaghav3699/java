@@ -1,4 +1,6 @@
 // To calculate factorial of any number
+import java.util.Scanner;
+
 class FactorialRecursive{
     static int factorial(int num){
         if (num == 1) {
@@ -8,7 +10,11 @@ class FactorialRecursive{
         }
     }
     public static void main(String[] args){
-        int value = factorial(5);
+        Scanner myObj = new Scanner(System.in);
+        System.out.print("Enter the number: ");
+        int num = myObj.nextInt();
+        int value = factorial(num);
         System.out.println("Factorial is "+value);
+        myObj.close();
     }
 }
