@@ -1,7 +1,12 @@
+import java.util.Scanner;
+
 public class FibonacciRecursive {
     public static void main(String[] args) {
-        int n = 5; // Change this to the desired number of Fibonacci numbers
+        Scanner s = new Scanner(System.in);
+        System.out.print("Enter number: ");
+        int n = s.nextInt();
         System.out.println("Fibonacci Series:");
+        // giving input to the function through loop
         for (int i = 0; i < n; i++) {
             System.out.print(fibonacci(i) + "\n");
         }
@@ -16,3 +21,4 @@ public class FibonacciRecursive {
     }
 }
 
+// ⚠️Don't try to give the input greater than 40. Because it's a recursive function it will take a lot of time to do the task.⚠️
