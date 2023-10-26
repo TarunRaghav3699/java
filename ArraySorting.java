@@ -2,7 +2,7 @@ class ArraySorting{
     public static void main(String[] args){
         String[] arr= {"mumbai","bombay", "delhi", "kolkata"};
         // System.out.println(arr.length());
-        int n = 4;
+        int n = arr.length;
         String temp;
         for (int i = 0; i<n; i++){
             for (int j = i+1; j<n; j++){
