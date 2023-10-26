@@ -1,7 +1,8 @@
 class ArraySorting{
     public static void main(String[] args){
         String[] arr= {"mumbai","bombay", "delhi", "kolkata"};
-        // System.out.println(arr.length());
+        // Here I am using arr.length because this will count the number of item in the list and sort it out
+        // one more thing the time complexity of this code is O(n x n) 
         int n = arr.length;
         String temp;
         for (int i = 0; i<n; i++){
