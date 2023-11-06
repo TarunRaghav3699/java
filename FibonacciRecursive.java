@@ -10,6 +10,8 @@ public class FibonacciRecursive {
         for (int i = 0; i < n; i++) {
             System.out.print(fibonacci(i) + "\n");
         }
+        // added s.close() without checking the code remove if don't want it.
+        s.close();
     }
 
     public static int fibonacci(int n) {
