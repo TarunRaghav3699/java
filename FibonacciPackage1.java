@@ -1,4 +1,3 @@
-// import fibonacci;
 import fibonacci.FibonacciPackage;
 
 public class FibonacciPackage1 {
