@@ -6,7 +6,12 @@ public class FactorialPackage1 {
         Scanner myObj = new Scanner(System.in);
         System.out.print("Enter number: ");
         int number = myObj.nextInt();
+
+
+        // using our factorial package
         int num = FactorialPackage.factorial(number);
+
+        
         System.out.println("factorial of " + number + " is " +num);
         myObj.close();
     }
