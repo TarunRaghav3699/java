@@ -12,7 +12,7 @@ public class FactorialPackage1 {
         int num = FactorialPackage.factorial(number);
 
 
-        System.out.println("factorial of " + number + " is " +num);
+        System.out.println("factorial of " + number + " is " + num);
         myObj.close();
     }
 }
