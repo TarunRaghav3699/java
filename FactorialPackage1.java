@@ -8,10 +8,10 @@ public class FactorialPackage1 {
         int number = myObj.nextInt();
 
 
-        // using our factorial package
+        // Using our factorial package 👇
         int num = FactorialPackage.factorial(number);
 
-        
+
         System.out.println("factorial of " + number + " is " +num);
         myObj.close();
     }
