@@ -14,6 +14,16 @@ class Student {
     public void display() {
         System.out.println("Name is " + name + " roll number is " + roll + " course is " + course);
     }
+
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        String Name = s.nextLine();
+        int Roll = s.nextInt();
+        String Course = s.nextLine();
+        Student n = new Student(Name,Roll, Course);
+        n.display();
+        s.close();
+    }
 }
 
 class Test extends Student {
@@ -29,8 +39,15 @@ class Test extends Student {
         int roll = myObj.nextInt();
         System.out.print("Enter your course: ");
         String course = myObj.next();
-        Test a = new Test(name, roll, course);
+        String Name = name;
+        int Roll = roll;
+        String Course = course;
+        Test a = new Test(Name, Roll, Course);
         a.display();
         myObj.close();
     }
 }
+
+// public interface InnerTest {
+
+// }
