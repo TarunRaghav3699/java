@@ -1,3 +1,5 @@
+// not for exam
+
 class Pyramid {
     public static void main(String[] args) {
         int n = 5;
