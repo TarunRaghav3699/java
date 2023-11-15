@@ -3,7 +3,7 @@ class Array{
     public void array1(){
         // String array;
         String[] array1={"tarun", "laxman", "om", "yash", "bharat"};
-        System.out.println("the most intelligent person is "+array1[0]+" and the most duffer student is "+array1[1]);
+        System.out.println(array1[0]+" and "+array1[1]+ " are both friends");
     }
     // Code to print all the numbers of the array
     public void array2(){
