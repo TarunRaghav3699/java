@@ -1,3 +1,5 @@
+// not for exam 
+package pattern;
 public class Pattern {
     public static void main(String[] args){
         int i,j;

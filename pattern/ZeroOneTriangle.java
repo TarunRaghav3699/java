@@ -1,3 +1,4 @@
+package pattern;
 // not for exam
 
 public class ZeroOneTriangle {
