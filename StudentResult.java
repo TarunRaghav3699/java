@@ -54,3 +54,18 @@ public class StudentResult implements Sports {
         System.out.println("Student Result Info: \nSports Weight: " + sportsWeight);
     }
 }
+
+// output will be:- 
+
+// Student Info: 
+// Name: Tarun
+// Roll Number: 106
+// Course: B.Tech
+// Section: B
+// Test Info: 
+// Subject 1: 75
+// Subject 2: 80
+// Marks: 85
+// Sports Info: 
+// Sports Weight: 10
+// Average: 55
